@@ -8,7 +8,7 @@ Clone the repository:
 ```bash
 $ git clone https://github.com/rikfer/meli-challenge.git
 ```
-Install with npm...
+Install 
 ```js
 # npm
 npm install
