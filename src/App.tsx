@@ -46,7 +46,7 @@ const App: React.FC = () => {
       <Box
         sx={{
           display: 'flex',
-          alignItems: 'flex-center',
+          alignItems: 'center',
           flexDirection: 'column',
           p: 1,
           m: 1,
@@ -58,7 +58,7 @@ const App: React.FC = () => {
           component="form"
           noValidate
           onSubmit={handleSubmit(onSubmit)}
-          sx={{ flexDirection: 'column', alignItems: 'flex-center' }}
+          sx={{ flexDirection: 'column' }}
         >
           <Item>
             <input
@@ -89,10 +89,11 @@ const App: React.FC = () => {
               <label>{option.label}</label>
             </Item>
           ))}
-
-          <Button type="submit" variant={"contained"} sx={{ mt: 3, mb: 2 }}>
-            Enviar
-          </Button>
+          <Item>
+            <Button type="submit" variant={"contained"} sx={{ mt: 3, mb: 2 }}>
+              Enviar
+            </Button>
+          </Item>
         </Box>
       </Box>
     </div >

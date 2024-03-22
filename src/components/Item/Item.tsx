@@ -12,7 +12,7 @@ export const Item = (props: ItemProp) => {
 		<Box
 			sx={{
 				display: 'flex',
-				flexDirection: 'column',
+				flexDirection: 'initial',
 				p: 1,
 				borderRadius: 1,
 			}}
